@@ -32,6 +32,7 @@
 		FB4B20AA2201F28300EAF61D /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		FB4B20AB2201F28300EAF61D /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		FB4B20AD2201F29700EAF61D /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		FB4B20AF2202061800EAF61D /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 		FB4B20A52201F15800EAF61D /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				FB4B20AF2202061800EAF61D /* Array.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";

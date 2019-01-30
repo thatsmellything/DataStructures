@@ -8,6 +8,7 @@
 
 #ifndef Node_hpp
 #define Node_hpp
+
 #include <assert.h>
 
 template <class Type>
@@ -38,6 +39,12 @@ template <class Type>
 Type Node<Type> :: getData()
 {
     return data;
+}
+
+template <class Type>
+void Node<Type> :: setData(Type data)
+{
+    this->data = data;
 }
 
 
