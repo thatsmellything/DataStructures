@@ -10,6 +10,7 @@
 		FB4B209C2201F11300EAF61D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4B209B2201F11300EAF61D /* main.cpp */; };
 		FB4B20AC2201F28300EAF61D /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4B20AA2201F28300EAF61D /* Controller.cpp */; };
 		FB4B20AE2201F29700EAF61D /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4B20AD2201F29700EAF61D /* Runner.cpp */; };
+		FBB61C9C2209E01C00BEACE8 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB61C9B2209E01C00BEACE8 /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		FB4B20AB2201F28300EAF61D /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		FB4B20AD2201F29700EAF61D /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		FB4B20AF2202061800EAF61D /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		FBB61C9B2209E01C00BEACE8 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		FB4B20A22201F12600EAF61D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FBB61C992209DE5400BEACE8 /* Tools */,
 				FB4B209B2201F11300EAF61D /* main.cpp */,
 				FB4B20AA2201F28300EAF61D /* Controller.cpp */,
 				FB4B20AB2201F28300EAF61D /* Controller.hpp */,
@@ -122,6 +126,15 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBB61C992209DE5400BEACE8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */,
+				FBB61C9B2209E01C00BEACE8 /* Timer.cpp */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +196,7 @@
 				FB4B20AE2201F29700EAF61D /* Runner.cpp in Sources */,
 				FB4B209C2201F11300EAF61D /* main.cpp in Sources */,
 				FB4B20AC2201F28300EAF61D /* Controller.cpp in Sources */,
+				FBB61C9C2209E01C00BEACE8 /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
