@@ -42,6 +42,7 @@
 		FB894F68220C7A3E00D690B2 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		FB894F6A220C7A4D00D690B2 /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		FB894F6B220C7A5900D690B2 /* music.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
+		FB894F6C220C852800D690B2 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		FBB61C9B2209E01C00BEACE8 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				FB4B20AF2202061800EAF61D /* Array.hpp */,
+				FB894F6C220C852800D690B2 /* List.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -132,6 +134,10 @@
 		FB4B20A72201F16E00EAF61D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FB894F67220C7A3D00D690B2 /* CrimeData.cpp */,
+				FB894F68220C7A3E00D690B2 /* CrimeData.hpp */,
+				FB894F65220C7A1F00D690B2 /* Music.cpp */,
+				FB894F64220C7A1F00D690B2 /* Music.hpp */,
 				FB894F6B220C7A5900D690B2 /* music.csv */,
 				FB894F6A220C7A4D00D690B2 /* crime.csv */,
 			);
@@ -141,10 +147,6 @@
 		FBB61C992209DE5400BEACE8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				FB894F67220C7A3D00D690B2 /* CrimeData.cpp */,
-				FB894F68220C7A3E00D690B2 /* CrimeData.hpp */,
-				FB894F65220C7A1F00D690B2 /* Music.cpp */,
-				FB894F64220C7A1F00D690B2 /* Music.hpp */,
 				FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */,
 				FBB61C9B2209E01C00BEACE8 /* Timer.cpp */,
 			);
