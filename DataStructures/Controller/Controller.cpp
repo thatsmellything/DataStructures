@@ -22,5 +22,5 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replace text");
     cout << wordHolder.getData() << endl;
-    t
+    
 }
