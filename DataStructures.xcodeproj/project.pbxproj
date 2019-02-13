@@ -70,8 +70,6 @@
 			children = (
 				FB356D8E2211C56000531D3B /* NonLinear */,
 				FB4B20A52201F15800EAF61D /* Linear */,
-				FB356D952211D70D00531D3B /* Queue.hpp */,
-				FBA33BB522146FA2002F6329 /* Stack.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -143,6 +141,8 @@
 		FB4B20A52201F15800EAF61D /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				FB356D952211D70D00531D3B /* Queue.hpp */,
+				FBA33BB522146FA2002F6329 /* Stack.hpp */,
 				FB4B20AF2202061800EAF61D /* Array.hpp */,
 				FB894F6C220C852800D690B2 /* List.hpp */,
 				FB894F6D220C966400D690B2 /* LinearList.hpp */,
