@@ -6,8 +6,8 @@
 //  Copyright © 2019 Judkins, Jensen. All rights reserved.
 //
 
-#ifndef Array_h
-#define Array_h
+#ifndef Array_hpp
+#define Array_hpp
 #include <assert.h>
 #include <iostream>
 
@@ -123,4 +123,4 @@ void Array<Type> :: setAtIndex(int pos, type item)
     internalArray[pos] = item;
 }
 
-#endif /* Array_h */
+#endif /* Array_hpp */
