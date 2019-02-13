@@ -12,6 +12,7 @@
 		FB4B20AE2201F29700EAF61D /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4B20AD2201F29700EAF61D /* Runner.cpp */; };
 		FB894F66220C7A2000D690B2 /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB894F65220C7A1F00D690B2 /* Music.cpp */; };
 		FB894F69220C7A3E00D690B2 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB894F67220C7A3D00D690B2 /* CrimeData.cpp */; };
+		FBA33BC422147E64002F6329 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBA33BC222147E64002F6329 /* LinearTester.cpp */; };
 		FBB61C9C2209E01C00BEACE8 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBB61C9B2209E01C00BEACE8 /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,8 @@
 		FBA33BBE22147A81002F6329 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		FBA33BBF22147ABA002F6329 /* Hashtable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hashtable.hpp; sourceTree = "<group>"; };
 		FBA33BC022147AE5002F6329 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
+		FBA33BC222147E64002F6329 /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
+		FBA33BC322147E64002F6329 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		FBB61C9B2209E01C00BEACE8 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +119,7 @@
 		FB4B209A2201F11300EAF61D /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				FBA33BC122147E4C002F6329 /* Testers */,
 				FB4B20A32201F13C00EAF61D /* Model */,
 				FB4B20A22201F12600EAF61D /* Controller */,
 				FB4B20A62201F16600EAF61D /* Diagrams */,
@@ -192,6 +196,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FBA33BC122147E4C002F6329 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				FBA33BC222147E64002F6329 /* LinearTester.cpp */,
+				FBA33BC322147E64002F6329 /* LinearTester.hpp */,
+			);
+			path = Testers;
+			sourceTree = "<group>";
+		};
 		FBB61C992209DE5400BEACE8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +278,7 @@
 				FB4B20AC2201F28300EAF61D /* Controller.cpp in Sources */,
 				FBB61C9C2209E01C00BEACE8 /* Timer.cpp in Sources */,
 				FB356D932211D42500531D3B /* FileController.cpp in Sources */,
+				FBA33BC422147E64002F6329 /* LinearTester.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

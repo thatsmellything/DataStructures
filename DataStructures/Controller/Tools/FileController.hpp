@@ -18,8 +18,8 @@
 #include <vector>
 #include <sstream>
 
-#include "../Model/Structures/Linear/Array.hpp"
-#include "../Model/Structures/Linear/LinkedList.hpp"
+#include "../../Model/Structures/Linear/Array.hpp"
+#include "../../Model/Structures/Linear/LinkedList.hpp"
 //#inlcude "../Model/Structures/NonLinear/BinarySearchTree.hpp"
 
 #include "../../Resources/Music.hpp"
