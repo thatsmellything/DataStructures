@@ -86,3 +86,74 @@ vector<Music> FileController :: musicDataToVector(string filename)
     }
     return musicVector;
 }
+
+LinkedList<CrimeData> FileController :: readDataToList(string fileName)
+{
+    LinkedList<CrimeData> crimes;
+    
+    string currentCSVLine;
+    int rowCount = 0;
+    
+    ifstream dataFile(fileName);
+    
+    //If file exists at path
+    if (dataFile.is_open())
+    {
+        while(!dataFile.eof())
+        {
+            getLine(dataFile, currentCSVLine, '\r');
+            if(rowCount != 0)
+            {
+                if(currentCSVLine.lenght() != 0)
+                {
+                    CrimeData row(currentCSVLine);
+                    crimes.add(row);
+                }
+            }
+            rowCount++;
+        }
+        dataFile.close();
+    }
+    else
+    {
+        cerr << "NO FILE" << endl;
+    }
+    
+    return crimes;
+}
+
+
+LinkedList<Music> FileController :: musicDataToList(string fileName)
+{
+    LinkedList<Music> musicList;
+    
+    string currentCSVLine;
+    int rowCount = 0;
+    
+    ifstream dataFile(fileName);
+    
+    //If file exists at path
+    if (dataFile.is_open())
+    {
+        while(!dataFile.eof())
+        {
+            getLine(dataFile, currentCSVLine, '\r');
+            if(rowCount != 0)
+            {
+                if(currentCSVLine.lenght() != 0)
+                {
+                    Music row(currentCSVLine);
+                    musicList.add(row);
+                }
+            }
+            rowCount++;
+        }
+        dataFile.close();
+    }
+    else
+    {
+        cerr << "NO FILE" << endl;
+    }
+    
+    return musicList;
+}
