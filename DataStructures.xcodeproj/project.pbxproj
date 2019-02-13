@@ -49,6 +49,7 @@
 		FB894F6B220C7A5900D690B2 /* music.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		FB894F6C220C852800D690B2 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		FB894F6D220C966400D690B2 /* LinearList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearList.hpp; sourceTree = "<group>"; };
+		FBA33BB522146FA2002F6329 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		FBB61C9B2209E01C00BEACE8 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +71,7 @@
 				FB356D8E2211C56000531D3B /* NonLinear */,
 				FB4B20A52201F15800EAF61D /* Linear */,
 				FB356D952211D70D00531D3B /* Queue.hpp */,
+				FBA33BB522146FA2002F6329 /* Stack.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
