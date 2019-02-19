@@ -13,11 +13,11 @@
 
 using namespace std;
 
-tmeplate <class Type>
+template <class Type>
 class Array
 {
 private:
-    type * internalArray;
+    Type * internalArray;
     int size;
 public:
     //Contstructor
@@ -49,7 +49,7 @@ Array<Type> :: Array(const Array<Type> & toCopy)
     this->size = toCopy.getSize();
     
     //Build data structure
-    internalArray = newtype[size];
+    internalArray = new Type[size];
     
     for(int index = 0; index < size; index++)
     {
@@ -95,7 +95,7 @@ template <class Type>
 Type Array<Type> :: operator [] (int index) const
 {
     assert(index >= 0 && index < size);
-    return interalArray[index];
+    return internalArray[index];
 }
 
 //Methods
@@ -117,7 +117,7 @@ Type Array<Type> :: getFromIndex(int index)
 }
 
 template <class Type>
-void Array<Type> :: setAtIndex(int pos, type item)
+void Array<Type> :: setAtIndex(int pos, Type item)
 {
     assert(pos >= 0 && pos < size);
     internalArray[pos] = item;

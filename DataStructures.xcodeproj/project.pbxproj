@@ -65,6 +65,7 @@
 		FBA33BC322147E64002F6329 /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		FBB61C9A2209DEFD00BEACE8 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		FBB61C9B2209E01C00BEACE8 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		FBC20D48221C5699007C956E /* LineartesterCpp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LineartesterCpp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +200,7 @@
 		FBA33BC122147E4C002F6329 /* Testers */ = {
 			isa = PBXGroup;
 			children = (
+				FBC20D48221C5699007C956E /* LineartesterCpp.png */,
 				FBA33BC222147E64002F6329 /* LinearTester.cpp */,
 				FBA33BC322147E64002F6329 /* LinearTester.hpp */,
 			);

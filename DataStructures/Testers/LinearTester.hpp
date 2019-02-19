@@ -22,7 +22,7 @@ using namespace std;
 
 class LinearTester
 {
-publid:
+public:
     void testVsSTL();
 }
 

@@ -24,3 +24,9 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     
 }
+
+void Controller :: testLinear()
+{
+    LinearTester lookieHere;
+    lookieHere.testVsSTL();
+}
