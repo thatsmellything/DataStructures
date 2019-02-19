@@ -19,7 +19,8 @@ void LinearTester :: testVsSTL()
     crimeTimerOOP.startTimer();
     LinkedList<CrimeData> moreCrimes = FileController :: readDataToList("/Users/jjud0535/Documents/C++/DataStructures/DataStructures/Resources/crime.csv");
     crimeTimerOOP.stopTimer();
-    
+
+    cout << "This is the STL: " << endl;
     crimeTimerSTL.displayInformation();
     crimeTimerOOP.displayInformation();
     cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() << " microseconds" << endl;
