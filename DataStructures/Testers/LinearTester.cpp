@@ -44,3 +44,18 @@ void LinearTester :: testVsSTL()
     musicSTL.resetTimer();
     
 }
+
+void LinearTester :: testVsStack()
+{
+    
+}
+void LinearTester :: testVsQueue()
+{
+    
+}
+void LinearTester :: testVsDouble()
+{
+    
+}
+
+
