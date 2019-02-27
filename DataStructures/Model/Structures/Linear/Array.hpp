@@ -76,7 +76,7 @@ Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
             internalArray = new Type [size];
         }
         
-        for (int index = 0; index < size; index+=)
+        for (int index = 0; index < size; index+=1)
         {
             internalArray[index] = toAssign[index];
         }
