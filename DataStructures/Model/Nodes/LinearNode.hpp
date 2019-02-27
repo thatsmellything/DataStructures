@@ -19,7 +19,7 @@ private:
 public:
     LinearNode();
     LinearNode(Type data);
-    LinearNode(Typedata, LinearNode<Type> * next);
+    LinearNode(Type data, LinearNode<Type> * next);
     LinearNode<Type> * getNext();
     void setNext(LinearNode<Type> * next);
 };
