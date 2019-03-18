@@ -6,9 +6,9 @@
 //  Copyright © 2019 Judkins, Jensen. All rights reserved.
 //
 
-#ifndef LinearNode_h
-#define LinearNode_h
-
+#ifndef LinearNode_hpp
+#define LinearNode_hpp
+#include <iostream>
 #include "Node.hpp"
 
 template <class Type>
@@ -20,14 +20,16 @@ public:
     LinearNode();
     LinearNode(Type data);
     LinearNode(Type data, LinearNode<Type> * next);
-    LinearNode<Type> * getNext();
-    void setNext(LinearNode<Type> * next);
+    LinearNode<Type> * getNextNode();
+    void setNextNode(LinearNode<Type> * next);
 };
 
-//Implementation of templates
+//implementation
 template <class Type>
-LinearNode<Type> :: LinearNode() : Node()
-{}
+LinearNode<Type> :: LinearNode() : Node<Type>()
+{
+    
+}
 
 template <class Type>
 LinearNode<Type> :: LinearNode(Type data) : Node<Type>(data)
@@ -52,4 +54,5 @@ void LinearNode<Type> :: setNextNode(LinearNode<Type> * next)
 {
     this->next = next;
 }
-#endif /* LinearNode_h */
+
+#endif

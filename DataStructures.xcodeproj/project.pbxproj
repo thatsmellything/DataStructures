@@ -85,8 +85,8 @@
 		FB356D8D2211C50900531D3B /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				FB356D8E2211C56000531D3B /* NonLinear */,
 				FB4B20A52201F15800EAF61D /* Linear */,
+				FB356D8E2211C56000531D3B /* NonLinear */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
