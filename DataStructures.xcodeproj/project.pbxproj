@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB141DC72268C5C400DCEF61 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB141DC52268C5C400DCEF61 /* BinaryTreeTester.cpp */; };
 		FB15BF12223FDAFD00191BBF /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB15BF10223FDAFD00191BBF /* GraphTester.cpp */; };
 		FB356D932211D42500531D3B /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB356D922211D42500531D3B /* FileController.cpp */; };
 		FB4B20AC2201F28300EAF61D /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB4B20AA2201F28300EAF61D /* Controller.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB141DC52268C5C400DCEF61 /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		FB141DC62268C5C400DCEF61 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		FB15BF10223FDAFD00191BBF /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		FB15BF11223FDAFD00191BBF /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		FB356D8F2211CFF600531D3B /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				FBA33BC322147E64002F6329 /* LinearTester.hpp */,
 				FB15BF10223FDAFD00191BBF /* GraphTester.cpp */,
 				FB15BF11223FDAFD00191BBF /* GraphTester.hpp */,
+				FB141DC52268C5C400DCEF61 /* BinaryTreeTester.cpp */,
+				FB141DC62268C5C400DCEF61 /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			files = (
 				FB894F66220C7A2000D690B2 /* Music.cpp in Sources */,
 				FB15BF12223FDAFD00191BBF /* GraphTester.cpp in Sources */,
+				FB141DC72268C5C400DCEF61 /* BinaryTreeTester.cpp in Sources */,
 				FB4B20AE2201F29700EAF61D /* Runner.cpp in Sources */,
 				FB894F69220C7A3E00D690B2 /* CrimeData.cpp in Sources */,
 				FB4B20AC2201F28300EAF61D /* Controller.cpp in Sources */,
