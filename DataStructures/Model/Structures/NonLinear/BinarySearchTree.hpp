@@ -14,7 +14,7 @@
 
 using namespace std;
 template <class Type>
-class BinarySearchtree : public Tree<type>
+class BinarySearchTree : public Tree<Type>
 {
 protected:
     //mark: protected methods
@@ -38,7 +38,7 @@ public:
     BinarySearchTree();
     ~BinarySearchTree();
     
-    BinarySearchTreeNode<Type> * getRoot();
+    BinaryTreeNode<Type> * getRoot();
     
     void inOrderTraversal();
     void preOrderTraversal();
@@ -47,7 +47,7 @@ public:
     
     int getSize();
     int getHeight();
-    bool isComplete);
+    bool isComplete();
     bool isBalanced();
     
     bool contains(Type value);
@@ -57,7 +57,7 @@ public:
     Type findMinimum();
     Type findMaximum();
     
-}
+};
 
 
 template <class Type>
