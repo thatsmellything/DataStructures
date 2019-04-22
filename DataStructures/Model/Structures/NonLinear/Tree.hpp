@@ -29,12 +29,7 @@ public:
     virtual void preOrderTraversal() = 0;
     virtual void postOrdertraversal() = 0;
 };
-//informational method stubs
-template <class Type>
-int BinarySearchTree<Type> :: getHeight()
-{
-    return -1;
-}
+
 
 
 #endif /* Tree_h */
