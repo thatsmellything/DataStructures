@@ -60,6 +60,58 @@ public:
 }
 
 
+template <class Type>
+int BinarySearchTree<Type> :: getHeight()
+{
+    return -1;
+}
+template <class Type>
+int BinarySearchTree<Type> :: getSize()
+{
+    return -1;
+}
+template <class Type>
+bool BinarySearchTree<Type> :: isComplete()
+{
+    return false;
+}
+template <class Type>
+bool BinarySearchTree<Type> :: isBalanced()
+{
+    return false;
+}
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal()
+{
+    
+}
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal()
+{
+    
+}
+template <class Type>
+void BinarySearchTree<Type> :: postorderTraversal()
+{
+    
+}
+template <class type>
+void BinarySearchTree<Type> :: insert(Type item)
+{
+    
+}
+template <class Type>
+bool BinarySearchTree<Type> :: contains(Type value)
+{
+    return false;
+}
+template <class type>
+void BinarySearchTree<Type> :: remove(Type item)
+{
+    
+}
+
+
 
 template <class Type>
 bool BinarySearchTree<Type> :: contains(Type itemToFind)
