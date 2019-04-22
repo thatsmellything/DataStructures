@@ -237,8 +237,28 @@ void BinarySearchTree<Type> :: preOrderTraversal(BinarytreeNode<Type> * currentN
     }
 }
 
+//post order
+
+template <class type>
+void BinarySearchTree<type> :: postOrderTraversal()
+{
+    postOrdertraversal(this->root);
+}
+
+/* post order trav goes left right root, great for destroying the tree
+ */
 
 
+template <class type>
+void BinarySearchTree<Type> :: postOrderTraversal(BinaryTreeNode<type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        postOrderTraversal(currentNode->getLeftChild());
+        postOrderTraversal(currentNode->getRightChild());
+        cout << currentNode->getData() << endl;
+    }
+}
 
 
 
