@@ -187,6 +187,43 @@ bool BinarySearchTree<Type> :: contains(Type itemToFind)
     }
 }
 
+
+
+
+
+
+template <class tyepe>
+void BinarySearchTree<Type> :: inOrderTraversal()
+{
+    inOrderTraversal(this->root);
+}
+
+
+
+//MARK: - Recursived Traversal Implementation
+/*
+ in order traversal goes from left, root, right
+ notice that the non-recursive case does nothing
+ */
+template <class Tyep>
+void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        inOrderTraversal(currentNode->getLeftChild());
+        cout << currentNode->getData() << endl;
+        inOrderTraversal(curretNode->getRightChild());
+    }
+}
+
+
+
+
+
+
+
+
+
 template <class Type>
 void BinarySearchTree<Type> :: remove (Type getRidOfMe)
 {
