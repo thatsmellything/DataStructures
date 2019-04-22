@@ -216,7 +216,26 @@ void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * currentNo
     }
 }
 
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal()
+{
+    preOrderTraversal(this->root);
+}
 
+/*
+ Pre order traversal goes in order root left right
+ great for math problems
+ */
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal(BinarytreeNode<Type> * currentNode)
+{
+    if(currentNode != nullptr)
+    {
+        cout << currentNode->getData() << endl;
+        preOrderTraversal(currentNode->getLeftChild());
+        preOrderTraversal(currentNode->getRightChild());
+    }
+}
 
 
 
