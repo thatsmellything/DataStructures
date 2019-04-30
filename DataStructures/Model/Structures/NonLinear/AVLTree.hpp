@@ -32,6 +32,43 @@ public:
    
 }
 
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: balance SubTree (BinaryTreenode<Type> * parent)
+{
+    int balanceFactor = heightDifference(parent);
+    if(balancefactor > 1)
+    {
+        if(heightDifference(parent->getLeftChild()) > 0)
+        {
+            parent = leftRotation(parent);
+        }
+        else
+        {
+            parent = leftRightRotation(parent);
+        }
+    }
+    else if(balanceFactor < -1)
+    {
+        if(heightDifference(parent->getRightChild()) > 0)
+        {
+            parent = rightLeftRotation(parent);
+            
+        }
+        else
+        {
+            parent = rightRotation(parent);
+            
+        }
+        
+    }
+    return parent;
+}
+
+
+
+
+
+
 template <class tye>
 BinaryTreeNode<Type> * AVLTree<Type> :: insertNode(BinaryTreeNode<Type> * parent, Type inserted)
 {
