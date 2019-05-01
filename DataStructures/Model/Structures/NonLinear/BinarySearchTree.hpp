@@ -95,7 +95,7 @@ void BinarySearchTree<Type> :: postorderTraversal()
 {
     
 }
-template <class type>
+template <class Type>
 void BinarySearchTree<Type> :: insert(Type item)
 {
     
@@ -105,14 +105,14 @@ bool BinarySearchTree<Type> :: contains(Type value)
 {
     return false;
 }
-template <class type>
+template <class Type>
 void BinarySearchTree<Type> :: remove(Type item)
 {
     
 }
 
 template <class Type>
-void BinarySearchTree<Type> :: insert(type itemToInsert)
+void BinarySearchTree<Type> :: insert(Type itemToInsert)
 {
     BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(itemToInsert);
     BinaryTreeNode<Type> * previous = nullptr;
@@ -192,7 +192,7 @@ bool BinarySearchTree<Type> :: contains(Type itemToFind)
 
 
 
-template <class tyepe>
+template <class Type>
 void BinarySearchTree<Type> :: inOrderTraversal()
 {
     inOrderTraversal(this->root);
@@ -205,7 +205,7 @@ void BinarySearchTree<Type> :: inOrderTraversal()
  in order traversal goes from left, root, right
  notice that the non-recursive case does nothing
  */
-template <class Tyep>
+template <class Type>
 void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * currentNode)
 {
     if(currentNode != nullptr)
