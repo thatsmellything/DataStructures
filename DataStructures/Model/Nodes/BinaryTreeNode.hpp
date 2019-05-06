@@ -21,19 +21,19 @@ private:
     
 public:
     BinaryTreeNode();
-    BinaryTreenode(Type data);
+    BinaryTreeNode(Type data);
     
     void setRootNode(BinaryTreeNode<Type> * root);
     void setRightChild(BinaryTreeNode<Type> * right);
     void setLeftChild(BinaryTreeNode<Type> * left);
     
     BinaryTree<Type> * getRootNode();
-    BinaryTree<Type> *getLeftChild();
+    BinaryTree<Type> * getLeftChild();
     BinaryTree<Type> * getRightChild();
 };
 
 template <class Type>
-BinaryTreenode<Type> :: BinaryTreeNode() : Node<Type>()
+BinaryTreeNode<Type> :: BinaryTreeNode() : Node<Type>()
 {
     root = nullptr;
     left = nullptr;
@@ -49,7 +49,7 @@ BinaryTreeNode<Type> :: BinaryTreeNode(Type data) : Node<Type>(data)
 }
 
 template <class Type>
-void BinaryTreeNode<Type> :: setRootnode(BinaryTreeNode<Type> * newRoot)
+void BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * newRoot)
 {
     root = newRoot;
 }
