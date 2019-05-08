@@ -9,5 +9,24 @@
 #ifndef Hashtable_h
 #define Hashtable_h
 
+int size = 101;
 
-#endif /* Hashtable_h */
+int position = simpleHash(word) % size;
+
+long simpleHash(string word)
+{
+    long hash = 0;
+    for (int index = 0; index < word.length(); index++)
+    {
+        hash += (int)(word[index]);
+    }
+    return hash
+}long simpleHash(string word)
+{
+    long hash = 0;
+    for (int index = 0; index < word.length(); index++)
+    {
+        hash += (int)(word[index]);
+    }
+    return hash
+}#endif /* Hashtable_h */

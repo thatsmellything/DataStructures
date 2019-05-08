@@ -9,7 +9,7 @@
 #ifndef GraphTester_hpp
 #define GraphTester_hpp
 
-#include "../Model/NonLinear/Graph.hpp"
+#include "../Model/Structures/NonLinear/Graph.hpp"
 #include <iostream>
 
 class GraphTester
